@@ -1,0 +1,98 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	background-color: #999;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+/*-------------------------------Wrapper---*/
+.wrapper{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+	width: 800px;
+	background-color: #fff;
+}
+
+p{
+	color: #999;
+	font-size: 12px;
+}
+
+/*-------------------------------Page title---*/
+
+.pageTitle{
+	text-align: center;
+	font-size: 48px;
+}
+
+/*-------------------------------Menu---*/
+.menu {
+	list-style-type: none;
+	margin-bottom: 20px;
+	padding: 0;
+}
+
+.listItem{
+	display: inline;
+	margin-right: 5px;
+}
+
+.btn {
+  color: #fff;
+  padding: 8px 16px;
+  text-decoration: none;
+  background-color: blue;
+}
+
+.active, .btn:hover {
+  background-color: orange;
+}
+
+/*-------------------------------Form---*/
+
+.formulier{
+ margin-top: 20px;
+}
+
+.inputLabel{
+	width: 200px;
+}
+
+.inputField{
+	width: 400px;
+}
+
+.error{
+	color: red;
+}
+
+/*-------------------------------Webshop---*/
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+	grid-gap: 10px;
+	width: 100%;
+}
+
+.productItem {
+  width: 1fr;
+  padding: 5px;
+  border: 2px solid rgb(202, 202, 202);
+  border-radius: 5px;
+}
+
+img{
+	width: 100%;
+}
+
+/*-------------------------------Footer---*/
+
+footer{
+	text-align: right;
+	background-color: black; /*#000 kan ook*/
+	color: white; /*#fff kan ook*/
+	font-size: 10px;
+}
+
